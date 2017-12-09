@@ -1,3 +1,7 @@
 name: Rust Roma
 source: "."
 dest: "./_site"
+ignore:
+        - .git/*
+        - README.md
+        - _site

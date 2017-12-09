@@ -1,7 +1,7 @@
-extends: default.liquid
+extends:	default.liquid
 
-date:    9 Dec 2017 18:00:00 +0100
-title: Rust Roma Intro
+date:	9 Dec 2017 18:00:00 +0100
+title:	Rust Roma Intro
 ---
 
 Benvenuti in Rust Roma, la community romana per rust.
