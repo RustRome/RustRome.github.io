@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	<link href="/css/main.css" rel="stylesheet"/>
+        {% if is_post %}
+          <title>Rust Roma - {{ title }}</title>
+        {% else %}
+          <title>Rust Roma </title>
+        {% endif %}
+    </head>
+    <body>
+	    <div class="main">
+		    <header>
+			    <a class="logo" href="/"> <img src="/logos/rust-roma.png"/><h1>Rust Roma</h1> </a> 
+		    </header>
+		    <section class="content">
+			    {% if is_post %}
+				    {% include '_layouts/post.liquid' %}
+			    {% else %}
+				    {{ content }}
+			    {% endif %}
+		    </section>
+	    </div>
+    </body>
+</html>

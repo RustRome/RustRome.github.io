@@ -1,0 +1,19 @@
+sudo: false
+language: rust
+
+before_script:
+  - cargo install cobalt-bin
+  - export PATH="$PATH:/home/travis/.cargo/bin"
+
+script:
+  - cobalt build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  local_dir: build
+  on:
+    branch: master
+
+
