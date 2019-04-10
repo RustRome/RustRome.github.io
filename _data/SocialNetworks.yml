@@ -26,6 +26,14 @@ reddit:
   baseURL: "https://reddit.com/u/"
   icon: "fa-reddit"
 
+
+slack:
+  name: "Slack"
+  baseURL: "http://rust-italia.herokuapp.com/"
+  icon: "fa-slack"
+
+
+
 google-plus:
   name: "Google+"
   baseURL: "https://plus.google.com/"
