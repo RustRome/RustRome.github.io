@@ -1,0 +1,6 @@
+main:
+  - title: "Posts"
+    url: /
+  - title: "About Us"
+    url: /aboutus/
+
