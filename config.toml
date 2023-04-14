@@ -1,11 +1,30 @@
 # The URL the site will be built for
 base_url = "https://RustRome.github.io"
 
+# title and description
+title = "RRHP"
+description = "Rust Roma Home Page"
+
+# the default language
+default_language = "it"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
+# feed as we want to read the news from emacs
+generate_feed = true
+
+
+theme = "dose"
+
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+taxomonies = [
+    {name = "tags"}
+]
+
+[languages.en]
 
 [markdown]
 # Whether to do syntax highlighting
